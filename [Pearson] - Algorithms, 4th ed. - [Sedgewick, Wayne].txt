@@ -1,0 +1,35 @@
+1. DONE:
+- Updated Gateway 1.0 feature.
+
+2. TODO:
+- Build endpoint & schema for Track.
+- Fix deployment issue.
+
+3. ISSUE:
+- Cannot deploy on lambda with Gateway 1.0 yet.
+
+Chap 1: Fundamentals
+* Perhaps the most common mistake made in programming is to pay too much attention to performance characteristics. Your first priority is to make your code clear and correct
+* Perhaps the second most common mistake made in programming is to ignore performance characteristics.
+* achieving speedups that enable the solution of problems that could not otherwise be solved is one of the prime reasons to study algorithm performance and design.
+
+Chap 2: Sorting
+* Selection sort: One of the simplest sorting algorithms works as follows: First, find the smallest item in the array and exchange it with the first entry (itself if the first entry is already the smallest). Then, find the next smallest item and exchange it with the second entry.
+* Insertion sort The algorithm that people often use to sort bridge hands is to consider the cards one at a time, inserting each into its proper place among those already considered (keeping them sorted).
+* mergesort : to sort an array, divide it into two halves, sort the two halves (recursively), and then merge the results.
+* Quicksort: we rearrange the array such that, when the two subarrays are sorted, the whole array is ordered. In the first instance, we do the two recursive calls before working on the whole array; in the second instance, we do the two recursive calls after working on the whole array. For mergesort, the array is divided in half; for quicksort, the position of the partition depends on the contents of the array.
+* 3-way quicksort: the algorithm of choice for a library sort—clients that sort arrays containing large numbers of duplicate keys are not unusual.
+* PRIORITY QUEUES: are characterized by the remove the maximum and insert operations.
+* Heapsort breaks into two phases: heap construction, where we reorganize the original array into a heap, and the sortdown, where we pull the items out of the heap in decreasing order to build the sorted result.
+
+Chap 3: Searching
+* Symbol table: is a data structure for key-value pairs that supports two operations: insert (put) a new pair into the table and search for (get) the value associated with a given key.
+* BINARY SEARCH TREES: A binary search tree (BST) is a binary tree where each node has a Comparable key (and an associated value) and satisfies the restriction that the key in any node is larger than the keys in all nodes in that node’s left subtree and smaller than the keys in all nodes in that node’s right subtree.
+* BALANCED SEARCH TREES: A 2-3 search tree is a tree that is either empty or
+■ A 2-node, with one key (and associated value) and two links, a left link to a 2-3 search tree with smaller keys, and a right link to a 2-3 search tree with larger keys
+■ A 3-node, with two keys (and associated values) and three links, a left link to a 2-3 search tree with smaller keys, a middle link to a 2-3 search tree with keys between the node’s keys, and a right link to a 2-3 search tree with larger keys 
+As usual, we refer to a link to an empty tree as a null link.
+* HASH TABLES: 
+
+Chap 4: Graphs
+* UNDIRECTED GRAPHS: A graph is a set of vertices and a collection of edges that each connect a pair of vertices.
